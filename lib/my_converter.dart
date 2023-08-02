@@ -13,7 +13,7 @@ class MyConverter {
   }
 
   // TODO: Crea un [setter] y [getter] para [binary] .
-  set binary(String binary){
+  void set binary(String binary){
     _binary = binary;
   }
   String get binary{
